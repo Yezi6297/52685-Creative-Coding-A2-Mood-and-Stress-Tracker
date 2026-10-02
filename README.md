@@ -34,6 +34,7 @@ The final version combines data recording, analysis, CSV storage and visualisati
 - Improved handling of invalid inputs and tied values.
 - Added longest commute analysis.
 - Kept CSV storage and saved-record loading from Version 3.
+- Added an option for users to continue entering data for another week without restarting the program.
 - Added Matplotlib visualisation for weekly stress and mood levels.
 
 # Final Version
@@ -56,6 +57,7 @@ Version 4 is the final version because it includes all the main functions develo
 6. The program will store and analyse the weekly data.
 7. The data will be saved to "mood_stress_data.csv".
 8. The program will display the saved records and create a chart showing weekly stress and mood levels.
+9. After each week, the user can choose whether to enter another week.
 
 ## Requirements
 
@@ -88,14 +90,15 @@ Install Matplotlib with:
 
 ## Screenshots
 
-The `screenshots` folder contains evidence showing the development and testing of the project.
+The screenshots show evidence of the development and testing of the project.
 
 It includes:
 
 - Prototype Version 1 - Basic Input and Output.png
 - Prototype Version 2 - Multiple Days and Lists.png
 - Prototype Version 3 - Data Analysis + CSV Storage + Multiple Weeks.png
-- Prototype Version 4 - Running Successfully.png
+- Prototype Version 4 - Multiple Weeks Test.png
+- Prototype Version 4 - Input Validation Test.png
 - Prototype Version 4 - Final Visualisation.png
 
 These screenshots show how the prototype developed from a basic program into the final version.
